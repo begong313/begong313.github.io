@@ -11,7 +11,9 @@
 ---
 ## Error 1 : Could not find addressable -2.7.0  
 <br>
+
 ![alt text](/public/img/2022-11-30-start/adressable.png)
+
 addressable 버전이 달라서 생기는 문제라고 한다. 
 <br/>
 <br/>
@@ -26,7 +28,9 @@ sudo gem install "addressable:~> 2.7.0"
 ## Error 2 : Could not find concurrent-ruby
 <br/>
 <br/>
-![alt text](/public/img/2022-11-30-start/find ruby.png)
+
+![alt text](/public/img/2022-11-30-start/find_ruby.png)
+
 이번엔 루비를 찾을수 없다그런다.  
 블로그 여기저기 찾아보니 아마 _bundler_ 에서 오류가 생긴것 같다.  
 <br/>
