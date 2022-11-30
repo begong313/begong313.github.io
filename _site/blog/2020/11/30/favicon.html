@@ -106,26 +106,67 @@
 </div>
 		</div>
 		<div class="content">
-			<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+			<article class="post">
+    <header class="post-header">
+        <div class="post-title">사이트 파비콘(Favicon) 만들기</div>
+        <time
+            class="post-date dt-published"
+            datetime="2020-11-30T21:28:00+09:00"
+            itemprop="datePublished"
+        >2020/11/30
+        </time>
+    </header>
 
-<div class="container">
-  <h1>404</h1>
+    <div class="post-content"><h1 id="파비콘-favicon-이란">파비콘 (favicon) 이란?</h1>
+<blockquote>
+  <p>인터넷 웹 브라우저의 주소창에 표시되는 웹사이트나 웹 페이지를 대표하는 아이콘</p>
+</blockquote>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<h1 id="파비콘-생성방법">파비콘 생성방법</h1>
+<ol>
+  <li>원하는 이미지를 정한다</li>
+  <li><a href="favicon-generator.org">favicon-generator.org</a>에 접속한다</li>
+  <li>Image 부분에 고른 이미지를 넣고 create Favicon버튼을 누른다.<br />
+<img src="/public/img/2022-11-30-favicon/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-11-30%2021.33.19.png" alt="alt text" width="70%" height="70%" /></li>
+  <li>Download the generated favicon을 눌러 다운한뒤, 홈페이지의 <code class="highlighter-rouge">&lt;head&gt;&lt;/head&gt;</code> 부분에 밑의 코드를 넣는다.  <br />추가적으로
+<code class="highlighter-rouge">&lt;link rel="shortcut icon" href = "/public/img/favicon.ico"&gt;</code>
+를 추가해주어야 한다.  (본인이 favicon을 저장한 경로로 설정.)
+<img src="/public/img//2022-11-30-favicon/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-11-30%2021.37.34(2).png" alt="alt text" width="50%" height="50%" /></li>
+</ol>
+
+<h1 id="파비콘-안내-문서">파비콘 안내 문서</h1>
+<p><a href="https://searchadvisor.naver.com/guide/markup-favicon">네이버 웹마스터 가이드</a></p>
 </div>
+</article>
+
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+    var disqus_config = function () {
+        this.page.url = "http://localhost:4000{page.url}"; // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = "{page.url}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+    (function () {
+        // DON'T EDIT BELOW THIS LINE
+        var d = document,
+            s = d.createElement("script");
+        s.src = "https://begong313.disqus.com/embed.js";
+        s.setAttribute("data-timestamp", +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript
+    >Please enable JavaScript to view the
+    <a href="https://disqus.com/?ref_noscript"
+        >comments powered by Disqus.</a
+    ></noscript
+>
+
 
 		</div>
 	</div>

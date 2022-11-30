@@ -1,0 +1,24 @@
+---
+layout: post
+title: 사이트 파비콘(Favicon) 만들기
+date: 2020-11-30 21:28:00 +0900
+category: blog
+comments: true
+---
+
+# 파비콘 (favicon) 이란?
+ > 인터넷 웹 브라우저의 주소창에 표시되는 웹사이트나 웹 페이지를 대표하는 아이콘
+
+# 파비콘 생성방법
+1. 원하는 이미지를 정한다
+2. [favicon-generator.org](favicon-generator.org)에 접속한다
+3. Image 부분에 고른 이미지를 넣고 create Favicon버튼을 누른다.  
+![alt text](/public/img/2022-11-30-favicon/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-11-30%2021.33.19.png){: width="70%" height="70%"}  
+4. Download the generated favicon을 눌러 다운한뒤, 홈페이지의 `<head></head>` 부분에 밑의 코드를 넣는다.  <br>추가적으로
+`<link rel="shortcut icon" href = "/public/img/favicon.ico">`
+를 추가해주어야 한다.  (본인이 favicon을 저장한 경로로 설정.)
+![alt text](/public/img//2022-11-30-favicon/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-11-30%2021.37.34(2).png){: width="50%" height="50%"}  
+
+
+# 파비콘 안내 문서
+[네이버 웹마스터 가이드](https://searchadvisor.naver.com/guide/markup-favicon)
