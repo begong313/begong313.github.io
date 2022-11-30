@@ -47,6 +47,7 @@ bundle update
 친절하게 bundle exec를 실행하라고 코드에 써져있다.
 <br>
 <br>
+
 ```
 bundle exec jekyll serve
 ```
