@@ -4,22 +4,22 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href = "/public/img/favicon.ico">
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="/public/img/favicon.ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/public/img/favicon.ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/public/img/favicon.ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/public/img/favicon.ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/public/img/favicon.ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/public/img/favicon.ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/public/img/favicon.ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/public/img/favicon.ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/public/img/favicon.ico/apple-icon-180x180.png">
 	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/public/img/favicon.ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/public/img/favicon.ico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/public/img/favicon.ico/favicon-16x16.png">
 	<link rel="manifest" href="/public/img/favicon.ico/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="/public/img/favicon.ico/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="blog" /></head>
 <style>@import url(/public/css/syntax/monokai.css);</style>
   <title>blog</title>
@@ -118,11 +118,18 @@
   <li><a href="favicon-generator.org">favicon-generator.org</a>에 접속한다</li>
   <li>Image 부분에 고른 이미지를 넣고 create Favicon버튼을 누른다.<br />
 <img src="/public/img/2022-11-30-favicon/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-11-30%2021.33.19.png" alt="alt text" width="70%" height="70%" /></li>
-  <li>Download the generated favicon을 눌러 다운한뒤, 홈페이지의 <code class="highlighter-rouge">&lt;head&gt;&lt;/head&gt;</code> 부분에 밑의 코드를 넣는다.  <br />추가적으로
+  <li>Download the generated favicon을 눌러 다운한뒤, 홈페이지의 <code class="highlighter-rouge">&lt;head&gt;&lt;/head&gt;</code> 부분에 밑의 코드를 넣는다.<br />
+<img src="/public/img//2022-11-30-favicon/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-11-30%2021.37.34(2).png" alt="alt text" width="50%" height="50%" /><br />
+5.추가적으로
 <code class="highlighter-rouge">&lt;link rel="shortcut icon" href = "/public/img/favicon.ico"&gt;</code>
-를 추가해주어야 한다.  (본인이 favicon을 저장한 경로로 설정.)
-<img src="/public/img//2022-11-30-favicon/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202022-11-30%2021.37.34(2).png" alt="alt text" width="50%" height="50%" /></li>
+를 추가해주고, 모든 코드의 href의 경로를 본인의 경로로 설정해야 한다.
+<br />
+<br /></li>
 </ol>
+
+<h2 id="적용-안될-때">적용 안될 때</h2>
+<p>브라우저에서 캐시를 저장하기 때문에 파비콘 적용 이전의 페이지를 띄울 수 있다.
+브라우저 캐시를 지운뒤 재실행 해보면 파비콘이 적용 될 수 있다.</p>
 
 <h1 id="파비콘-안내-문서">파비콘 안내 문서</h1>
 <p><a href="https://searchadvisor.naver.com/guide/markup-favicon">네이버 웹마스터 가이드</a></p>
