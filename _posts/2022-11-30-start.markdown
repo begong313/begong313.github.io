@@ -33,7 +33,7 @@ sudo gem install "addressable:~> 2.7.0"
 ## Error 2 : Could not find concurrent-ruby
 <br/>
 <br/>
-![alt text](/public/img/2022-11-30-start/find ruby.png){: width="50%" height="50%"}  
+![alt text](/public/img/2022-11-30-start/find_ruby.png){: width="50%" height="50%"}  
 이번엔 루비를 찾을수 없다그런다.  
 블로그 여기저기 찾아보니 아마 _bundler_ 에서 오류가 생긴것 같다.  
 <br/>
