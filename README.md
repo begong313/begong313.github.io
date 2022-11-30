@@ -50,4 +50,5 @@ bundle update
 ```
 bundle exec jekyll serve
 ```
+
 로 코드를 실행시켜주니 자동으로 해결이 되었다.
