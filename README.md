@@ -1,33 +1,56 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: post
+title: 기술블로그 시작
+date: 2020-11-30 17:45:00 +0900
+category: blog
+comments: true
 ---
 
-## Theme Monos
-> Simple and lightweight theme for Jekyll
+# 기술블로그 시작
 
-### Features
-- Responsive.
-- Syntax Highlight
-- Most optimized theme for tech blog.
-- Lightweight with minimum stylesheet.
-- Easy to customize.
-- Offers category menu.
+> jekyll 활용해 블로그 만들면서 오류해결
 
-### _config.yml
-> Code block will look like this.
-```yml
-highlighter-theme: monokai //you can change your syntax color scheme.
-date_format: "%Y-%M-%D" //and date format.
+![alt text](/public/img/screenshot-1.png){: width="50%" height="50%"}
+
+계속해서 원인모를 에러가나서 겨우 찾은 Monos 테마  
+[퍼온 깃허브 주소](https://github.com/ejjoo/jekyll-theme-monos)
+
+---
+## Error 1 : Could not find addressable -2.7.0  
+<br>
+![alt text](/public/img/2022-11-30-start/adressable.png){: width="30%" height="30%"}  
+addressable 버전이 달라서 생기는 문제라고 한다. 
+<br/>
+<br/>
+
 ```
+sudo gem install "addressable:~> 2.7.0"
+```
+버전에 맞게 설치해주니 해결이 되었다.  
+<br>
 
-### Screenshots
-#### Page
-![alt text](/public/img/screenshot-1.png)
-#### Articles
-![alt text](/public/img/screenshot-2.png)
-#### Page - Mobile
-![alt text](/public/img/screenshot-m1.png)
-#### Page - Articles
-![alt text](/public/img/screenshot-m2.png)
+---
+## Error 2 : Could not find concurrent-ruby
+<br/>
+<br/>
+![alt text](/public/img/2022-11-30-start/find ruby.png){: width="50%" height="50%"}  
+이번엔 루비를 찾을수 없다그런다.  
+블로그 여기저기 찾아보니 아마 _bundler_ 에서 오류가 생긴것 같다.  
+<br/>
+```
+bundle update
+```
+간단하게 해결  
+<br>  
+
+---
+## Error 3 : You have already activated mercenary 0.4.0 but your Gemfile requires mercenary 0.3.6. Prepending 'bundle exec' to your command may solve this.
+<br/>
+<br/>
+친절하게 bundle exec를 실행하라고 코드에 써져있다.
+<br>
+<br>
+```
+bundle exec jekyll serve
+```
+로 코드를 실행시켜주니 자동으로 해결이 되었다.
