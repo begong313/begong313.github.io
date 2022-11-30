@@ -3,7 +3,7 @@
 
 > jekyll 활용해 블로그 만들면서 오류해결
 
-![alt text](/public/img/screenshot-1.png){: width="50%" height="50%"}
+![alt text](/public/img/screenshot-1.png)
 
 계속해서 원인모를 에러가나서 겨우 찾은 Monos 테마  
 [퍼온 깃허브 주소](https://github.com/ejjoo/jekyll-theme-monos)
@@ -11,7 +11,7 @@
 ---
 ## Error 1 : Could not find addressable -2.7.0  
 <br>
-![alt text](/public/img/2022-11-30-start/adressable.png){: width="30%" height="30%"}  
+![alt text](/public/img/2022-11-30-start/adressable.png)
 addressable 버전이 달라서 생기는 문제라고 한다. 
 <br/>
 <br/>
@@ -26,7 +26,7 @@ sudo gem install "addressable:~> 2.7.0"
 ## Error 2 : Could not find concurrent-ruby
 <br/>
 <br/>
-![alt text](/public/img/2022-11-30-start/find ruby.png){: width="50%" height="50%"}  
+![alt text](/public/img/2022-11-30-start/find ruby.png)
 이번엔 루비를 찾을수 없다그런다.  
 블로그 여기저기 찾아보니 아마 _bundler_ 에서 오류가 생긴것 같다.  
 <br/>
