@@ -1,26 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-30T17:52:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blog</title><subtitle>2022-11-30~</subtitle><entry><title type="html">기술블로그 시작</title><link href="http://localhost:4000/sample/2020/11/30/post1.html" rel="alternate" type="text/html" title="기술블로그 시작" /><published>2020-11-30T17:45:00+09:00</published><updated>2020-11-30T17:45:00+09:00</updated><id>http://localhost:4000/sample/2020/11/30/post1</id><content type="html" xml:base="http://localhost:4000/sample/2020/11/30/post1.html"><![CDATA[<h1 id="post-sample">post-sample</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-30T21:25:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">blog</title><subtitle>2022-11-30~</subtitle><entry><title type="html">MarkDown 문법 정리</title><link href="http://localhost:4000/markdown/2022/11/30/markdown%EC%A0%95%EB%A6%AC.html" rel="alternate" type="text/html" title="MarkDown 문법 정리" /><published>2022-11-30T20:55:00+09:00</published><updated>2022-11-30T20:55:00+09:00</updated><id>http://localhost:4000/markdown/2022/11/30/markdown%EC%A0%95%EB%A6%AC</id><content type="html" xml:base="http://localhost:4000/markdown/2022/11/30/markdown%EC%A0%95%EB%A6%AC.html"><![CDATA[<h2 id="줄바꿈-한줄띄기">줄바꿈, 한줄띄기</h2>
+<p><br />
+markdown 문서를 쓸 떄, 들여쓰기 기능이 없다보니 (쓰기불편) 구분감을 넣기 힘들다.<br />
+줄바꿈을 사용한다면 구분감을 줄 수 있다.</p>
+<h3 id="마크다운-작성-시">마크다운 작성 시</h3>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>abc
+<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;br&gt;</span>
+abc
+</code></pre></div></div>
+<h3 id="결과">결과</h3>
+<p>abc
+<br />
+<br />
+abc</p>
+
+<hr />
+<h2 id="제목">제목</h2>
+<p>#의 개수에 따라 글자의 크기를 조정할 수 있다.</p>
+<h3 id="마크다운-작성-시-1">마크다운 작성 시</h3>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># h1  </span>
+<span class="gu">## h2</span>
+<span class="gu">### h3</span>
+<span class="gu">#### h4</span>
+<span class="gu">##### h5</span>
+<span class="gu">###### h6</span>
+</code></pre></div></div>
+
+<h3 id="결과-1">결과</h3>
+<h1 id="h1">h1</h1>
+<h2 id="h2">h2</h2>
+<h3 id="h3">h3</h3>
+<h4 id="h4">h4</h4>
+<h5 id="h5">h5</h5>
+<h6 id="h6">h6</h6>
+<hr />
+<h2 id="단락-구분선">단락 구분선</h2>
+<p>내용이 달라질때 단락을 구분하기위해 사용<br />
+사용방법은 ‘-‘ Or ‘*’ or ‘_’ 을 3개이상 나열하면 된다.</p>
+<h3 id="마크다운-작성-시-2">마크다운 작성 시</h3>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">---</span>
+<span class="p">***</span>
+<span class="gs">____</span>
+</code></pre></div></div>
+<h3 id="결과-2">결과</h3>
+<hr />
+<hr />
+<hr />]]></content><author><name></name></author><category term="markdown" /><summary type="html"><![CDATA[줄바꿈, 한줄띄기 markdown 문서를 쓸 떄, 들여쓰기 기능이 없다보니 (쓰기불편) 구분감을 넣기 힘들다. 줄바꿈을 사용한다면 구분감을 줄 수 있다. 마크다운 작성 시 abc &lt;br&gt; &lt;br&gt; abc 결과 abc abc]]></summary></entry><entry><title type="html">기술블로그 시작</title><link href="http://localhost:4000/blog/2020/11/30/start.html" rel="alternate" type="text/html" title="기술블로그 시작" /><published>2020-11-30T17:45:00+09:00</published><updated>2020-11-30T17:45:00+09:00</updated><id>http://localhost:4000/blog/2020/11/30/start</id><content type="html" xml:base="http://localhost:4000/blog/2020/11/30/start.html"><![CDATA[<h1 id="기술블로그-시작">기술블로그 시작</h1>
 
 <blockquote>
-  <p>Hello!</p>
+  <p>jekyll 활용해 블로그 만들면서 오류해결</p>
 </blockquote>
 
-<p>This is code</p>
+<p><img src="/public/img/screenshot-1.png" alt="alt text" width="50%" height="50%" /></p>
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">print</span> <span class="s1">'hello world'</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="sample" /><summary type="html"><![CDATA[post-sample]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/01/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-01-02T19:31:29+09:00</published><updated>2020-01-02T19:31:29+09:00</updated><id>http://localhost:4000/jekyll/update/2020/01/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/02/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p>계속해서 원인모를 에러가나서 겨우 찾은 Monos 테마<br />
+<a href="https://github.com/ejjoo/jekyll-theme-monos">퍼온 깃허브 주소</a></p>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<hr />
+<h2 id="error-1--could-not-find-addressable--270">Error 1 : Could not find addressable -2.7.0</h2>
+<p><br />
+<img src="/public/img/2022-11-30-start/adressable.png" alt="alt text" width="30%" height="30%" /><br />
+addressable 버전이 달라서 생기는 문제라고 한다. 
+<br />
+<br /></p>
 
-<p><code class="highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo gem install "addressable:~&gt; 2.7.0"
+</code></pre></div></div>
+<p>버전에 맞게 설치해주니 해결이 되었다.<br />
+<br /></p>
 
-<p>Where <code class="highlighter-rouge">YEAR</code> is a four-digit number, <code class="highlighter-rouge">MONTH</code> and <code class="highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<hr />
+<h2 id="error-2--could-not-find-concurrent-ruby">Error 2 : Could not find concurrent-ruby</h2>
+<p><br />
+<br />
+<img src="/public/img/2022-11-30-start/find ruby.png" alt="alt text" width="50%" height="50%" /><br />
+이번엔 루비를 찾을수 없다그런다.<br />
+블로그 여기저기 찾아보니 아마 <em>bundler</em> 에서 오류가 생긴것 같다.<br />
+<br /></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle update
+</code></pre></div></div>
+<p>간단하게 해결<br />
+<br /></p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-<span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<hr />
+<h2 id="error-3--you-have-already-activated-mercenary-040-but-your-gemfile-requires-mercenary-036-prepending-bundle-exec-to-your-command-may-solve-this">Error 3 : You have already activated mercenary 0.4.0 but your Gemfile requires mercenary 0.3.6. Prepending ‘bundle exec’ to your command may solve this.</h2>
+<p><br />
+<br />
+친절하게 bundle exec를 실행하라고 코드에 써져있다.
+<br />
+<br /></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve
+</code></pre></div></div>
+<p>로 코드를 실행시켜주니 자동으로 해결이 되었다.</p>]]></content><author><name></name></author><category term="blog" /><summary type="html"><![CDATA[기술블로그 시작]]></summary></entry></feed>
