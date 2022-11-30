@@ -1,0 +1,17 @@
+---
+layout: post
+title: 기술블로그 시작
+date: 2020-11-30 17:45:00 +0900
+category: sample
+comments: true
+---
+
+# post-sample
+
+> Hello!
+
+This is code
+
+```ruby
+print 'hello world'
+```
